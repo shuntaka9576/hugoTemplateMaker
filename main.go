@@ -23,7 +23,7 @@ var (
 )
 
 func main() {
-	file, err := os.Create(now.Format("200601020304")+".md")
+	file, err := os.Create(now.Format("200601021504")+".md")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "%v", err)
 	}
